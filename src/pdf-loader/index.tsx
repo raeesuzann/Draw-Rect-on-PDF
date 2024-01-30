@@ -45,6 +45,7 @@ function PDFLoader({ containerWidth }: PDFLoaderProps) {
       </button>
       <Document file={samplePDF} renderMode="canvas">
         <Page
+          className={`${canDraw && 'cursor-crosshair'}`}
           canvasRef={canvasRef}
           onRenderSuccess={() => setCanDraw(true)}
           pageNumber={1}
