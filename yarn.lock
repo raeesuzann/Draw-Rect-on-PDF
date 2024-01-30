@@ -710,6 +710,11 @@
     "@types/babel__core" "^7.20.5"
     react-refresh "^0.14.0"
 
+"@wojtekmaj/react-hooks@^1.18.1":
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/@wojtekmaj/react-hooks/-/react-hooks-1.18.1.tgz#012606f31ae64fbda50c3b8f23958237cda9fd99"
+  integrity sha512-hvaKC4+xBt+jrccMZsV3oHveaAjcO/Lw833vH78Y/auIwya14H4WH9E1i7EEnm/RcGJmUzCYNA9Ulx9aY1TMhQ==
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
